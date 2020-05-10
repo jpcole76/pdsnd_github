@@ -5,7 +5,7 @@
 Bikeshare
 
 ### Description
-The project is designed to pull data from bike
+Calculate statistics and build an interactive environment where a user chooses the data and filter for a dataset to analyze.
 
 ### Files used
 jc.py
