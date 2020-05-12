@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-import calendar
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -23,7 +23,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     #Added for git Project
-    print('This should be fun!')
+    print('This should be a lot of fun!')
 
     city=input("\nSelect one of the following cities:\nChicago \nNew York City \nWashington \nType your selection here: ").lower()
     while city not in cities:
